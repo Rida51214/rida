@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>html tables</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                
+            }
+             
+            table#ridox{
+                border-spacing: 15px;
+                background-color:rgb(26, 165, 96);
+                width: 100%;
+            }
+            table#ridox th{
+            color: white;
+            background-color: black;
+            }
+            th,td{
+                padding: 15px;
+            }
+            th{
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- HTML table-->
+        
+        <h2> Table practice</h2>
+
+        <table id="ridox"  style="width:100%">
+         
+           <tr>
+               <th>Name</th>
+               <th>Place</th>
+               <th>Animal</th>
+               <th>Thing</th>
+                <th colspan="2">
+                    Age</th>
+                    
+           </tr>
+           
+           <tr>
+               <td>Rida Fatima</td>
+               <td>Islamabad</td>
+               <td>Cats</td>
+               <td>Table</td>
+               <td>20</td>
+               <td>30</td>
+            </tr>
+            <tr>
+                <td>Afia</td>
+                <td>Lahore</td>
+                <td>Dogs</td>
+                <td>Book</td>
+                <td>40</td>
+                <td>20</td>
+                
+            </tr>
+            <tr>
+                <th rowspan="2">
+                    telephone
+                </th>
+                <td>2333333333(Islamabad)</td>
+                <td>Parrots</td>
+                <td>Pillow</td>
+                <td>12</td>
+                <td>50</td>
+
+            </tr>
+            <tr>
+                <td>22222222222/(Lahore)</td>
+            </tr>
+            
+        </table>
+        
+    </body>
+</html>
